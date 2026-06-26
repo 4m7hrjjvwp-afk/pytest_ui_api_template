@@ -1,11 +1,13 @@
-# pytest_ui_api_
+# pytest_ui_api_template
 
 ## Автоматизации тестирования на python
 
 ### Шаги
 1. Склонировать проект 'git clone https://github.com/4m7hrjjvwp-afk/pytest_ui_api_template.git'
-2. Установить все зависимости
+2. Установить зависимости
 3. Запустить тесты 'pytest'
+4. Сгенерировать отчет 'allure generate allure-files -o allure-report'
+5. Открыть отчет 'allure open allure-report'
 
 ### Стек:
 - pytest
@@ -20,6 +22,7 @@
 - ./pages - описание страниц
 - ./api - хелперы для работы с API
 - ./db - хелперы для работы с БД
+- test_config.ini - настройки для тестов
 
 ### Полезные ссылки
 - [Подсказка по markdown](https://www.markdownguide.org/basic-syntax/)
